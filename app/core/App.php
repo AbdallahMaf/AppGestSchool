@@ -14,6 +14,6 @@ class App
 
         $url = explode("/", $url);
 
-        echo $url[0];
+        echo $url[20] . "dvfvfgv";
     }
 }
