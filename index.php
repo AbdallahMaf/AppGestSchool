@@ -1,8 +1,10 @@
 <?php
 
+echo $_SERVER['QUERY_STRING']
+
 ?>
 
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -10,12 +12,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gestion des Etudiants</title>
-    <!-- ======= Styles ====== -->
+    <!-- ======= Styles ======
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
-    <!-- =============== Navigation ================ -->
+    <!-- =============== Navigation ================
     <div class="container">
         <div class="navigation">
             <ul>
@@ -111,7 +113,7 @@
             </ul>
         </div>
 
-        <!-- ========================= Main ==================== -->
+        <!-- ========================= Main ====================
         <div class="main">
             <div class="topbar">
                 <div class="toggle">
@@ -130,7 +132,7 @@
                 </div>
             </div>
 
-            <!-- ======================= Cards ================== -->
+            <!-- ======================= Cards ==================
             <div class="cardBox">
                 <div class="card">
                     <div>
@@ -177,7 +179,7 @@
                 </div>
             </div>
 
-            <!-- ================ Order Details List ================= -->
+            <!-- ================ Order Details List =================
             <div class="details">
                 <div class="recentOrders">
                     <div class="cardHeader">
@@ -256,7 +258,7 @@
                     </table>
                 </div>
 
-                <!-- ================= New Customers ================ -->
+                <!-- ================= New Customers ================
                 <div class="recentCustomers">
                     <div class="cardHeader">
                         <h2>Recent Customers</h2>
@@ -340,12 +342,12 @@
         </div>
     </div>
 
-    <!-- =========== Scripts =========  -->
+    <!-- =========== Scripts =========  --
     <script src="assets/js/main.js"></script>
 
-    <!-- ====== ionicons ======= -->
+    <!-- ====== ionicons ======= --
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
 
-</html>
+</html> -->
