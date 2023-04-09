@@ -16,14 +16,15 @@ class App
     public function __construct()
     {
         $this->prepareURL();
+        $this->render();
     }
 
 
-/**
- * 
- * Extract controller, method and parameters
- * @return void
- */
+    /**
+     * 
+     * Extract controller, method and parameters
+     * @return void
+     */
 
 
     private function prepareURL()
@@ -48,5 +49,18 @@ class App
 
     private function render()
     {
+        if(class_exists(this->controller)){
+           $controller = new $this->controller;  
+
+           if(method_exists($controller,$this->action)){
+
+           }
+           else{
+            echo "Method : " . $this->action ." does not Exist";
+           }
+        }
+        else{
+            echo "THIS CONTRLLER :".$this->controller. "NOT EXIST";
+        }
     }
 }
