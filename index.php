@@ -1,5 +1,2 @@
-<?php
-
-require_once('autoload.php');
-
-//new App();
+<?php 
+require('autoload.php');
